@@ -17,10 +17,10 @@
              
             else{
                 echo '降順にソートします'.'<br>'; 
-                rsort($nums,$array);
+                rsort($array);
             }
-            foreach($nums as $num) {
-                echo $nums.'<br>';
+            foreach($array as $num) {
+                echo $num.'<br>';
                } 
             }
             $nums = [15, 4, 18, 23, 10 ];
